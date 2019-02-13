@@ -1,0 +1,91 @@
+ body {
+    margin : 0;
+    padding : 0;
+    background-color: #8AE1F6;
+  }
+  
+  .imagecontainer {
+      text-align: center;
+  }
+  img.profile {
+      width: 40%;
+      border-radius: 50%;
+  }
+  .title {
+ height:100%;
+	background-image: url("https://bit.ly/2N3wQye");
+	background-repeat: no-repeat;
+	display:flex;
+	flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    background-size: cover;
+    background-position: center;
+  }
+.content {
+    max-width: 24%;
+    margin-top: 50px;
+    margin-left: 38%;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5%;
+  }
+  input {
+      width: 50%; 
+      padding: 14px 20px;
+      margin-bottom: 10px;
+  }
+  label {
+      font-size: 12px;
+      margin-bottom: 10px
+  }
+  button{
+    padding: 10px 15px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  }
+  
+  button:hover{
+  color : black;
+  }
+  button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+  .main-signup{
+  display: flex;
+  justify-content: center;
+  }
+  .bod
+  {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .comm
+  {
+  display: flex;
+  
+  
+  }
+  .comment>button{
+  width: 15rem;
+  margin-right: 1rem;
+  
+  }
+  
+ 
+  
+  
+  
+  
+ 
