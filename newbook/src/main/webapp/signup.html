@@ -6,23 +6,26 @@
 </head>
 <body>
    <div class="main-signup">
-   <div class="form-container">
-   <form action="webapi/signup" method="post">
-   <div class="heading">
-   <h2>Sign Up</h2>
-   </div>
+   		<div class="form-container">
+   		<form action="webapi/signup" method="post">
+   			<div class="heading">
+   				<h2>Sign Up</h2>
+   			</div>
    
    <div class="name">
-   <input type="text" name="name" placeholder=" Name" class="text">   
+   		<label><b>Name</b></label><br>
+   		<input type="text" name="name" placeholder=" Name" class="text" required="Empty Field">   
    </div>
    <div class="email-container">
-   <input type="email" name="email" placeholder="your@email.com" class="email">
+   		<label><b>E-mail</b></label><br>
+   		<input type="email" name="email" placeholder="mail@email.com" class="email" required>
    </div>
    <div class="password-container">
-   <input type="password" name="password" placeholder="********" class="password" >
+   		<label><b>Password</b></label><br>
+   		<input type="password" name="password" placeholder="********" class="password" required>
    </div>
    <div class="button-submit">
-   <button type="submit" class="submit">Submit</button>
+   		<button type="submit" class="submit">Submit</button>
    </div>
    </form>
  </div>
